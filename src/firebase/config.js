@@ -2,7 +2,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth'
 const firebaseConfig = {
-  apiKey: process.env.VUE_APP_FBKEY,
+  apiKey: "AIzaSyCs7gZd2hADN0ugVxP3krD4oRqEN9slvpk",
   authDomain: "vue3-form.firebaseapp.com",
   projectId: "vue3-form",
   storageBucket: "vue3-form.appspot.com",
