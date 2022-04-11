@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Hoşgeldiniz<h3>{{detailMail.email}} adresi ile giriş yaptınız</h3></h2>
+      <h2>Hoşgeldiniz<h2> <i>{{detailMail.email}}</i></h2>adresi ile giriş yaptınız</h2>
     </div>
     <button @click="exit" class="btn btn-danger">Çıkış Yap</button>
 </template>
@@ -20,3 +20,8 @@ setup() {
   return {exit,detailMail}
 }}
 </script>
+<style>
+i{
+  color: red;
+}
+</style>
